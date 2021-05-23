@@ -1,2 +1,4 @@
 # microprocessor_systems
-Microprocessor systems L2
+Microprocessor systems LR2
+
+PIC16F877/PIC16F877A
