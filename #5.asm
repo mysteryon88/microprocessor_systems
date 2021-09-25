@@ -75,7 +75,7 @@ RETURN
 DELAY:
            MOVLW 0xFF
            MOVWF d1
-	LOOP:
+	LOOP01:
 	       MOVLW 0xFF
 		   MOVWF d2
 	LOOP_1:
@@ -97,7 +97,7 @@ DELAY:
 		   DECFSZ d2, F
 	GOTO LOOP_4
 		   DECFSZ d1, F
-	GOTO LOOP
+	GOTO LOOP01
 RETURN 
 
 END
